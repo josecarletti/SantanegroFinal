@@ -1,0 +1,193 @@
+@import '../base/variables';
+
+body {
+    width: fit-content;
+    background-size: cover;
+    background-color: rgb(43, 43, 43);
+    background-attachment: fixed;
+
+    @media (min-width: 960px) {
+        width: fit-content;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+}
+
+
+/*Gif/Transicion a la Home*/
+
+.gifPortada {
+    display: flex;
+    justify-content: center;
+    margin-top: 75px;
+
+    @media (max-width: 960px) {
+        width: 100%;
+        justify-content: center;
+    }
+
+}
+
+.transition {
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    width: 100%;
+
+}
+
+.gif{
+    width: 100%;
+    
+}
+
+/*Home*/
+
+
+main {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.flexMain {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+
+    
+}
+
+.flexH1 {
+    display: flex;
+    justify-content: center;
+    padding-top: 30px;
+    padding-bottom: 100px;
+    margin-left: 30%;
+    width: 40%;
+    height: 30px;
+    @media (max-width: 960px) {
+        padding-top: 10px;
+        padding-bottom: 30px;
+        margin-left: 30%;
+        width: 40%;
+        height: 58px;
+    }
+}
+
+#santaFont {
+    /*box modeling*/
+    text-align: center;
+    text-transform: uppercase;
+    color: $color-black;
+    font-family: $Gfont;
+    font-size: 80px;
+    @media (max-width: 960px) {
+        text-align: center;
+        text-transform: uppercase;
+        color: $color-white;
+        font-family: $Gfont;
+        font-size: 40px;
+    }
+}
+.flexNovedades {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+
+    @media (max-width: 960px) {
+        flex-direction: column;
+    }
+}
+
+.imgNovedades {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+
+    @media (max-width: 960px) {
+        display: flex;
+        justify-content: center;
+        width: 80%;
+    }
+    
+}
+
+.flexSection {
+    display: flex;
+    padding-top: 60px;
+    width: 100%;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    @media (max-width: 960px) {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+    }
+}
+
+.divSection {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+
+    @media (max-width: 960px) {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+.flyerContainer {
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    height: 400px;
+    width: 400px;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.5);
+
+    @media (max-width: 960px) {
+        border-radius: 5px;
+        height: 200px;
+        width: 360px;
+        margin-left: 5px;
+        margin-right: 5px;
+        margin-top: 10px;
+        margin-bottom: 10px;
+        background-color: rgba(255, 255, 255, 0.5);
+    }
+}
+
+.imgBanner {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 50% 20%;
+}
+
+.parrafoBio {
+    color: rgb(255, 255, 255);
+    background-color: rgba(26, 25, 25, 0.418);
+}
+
+.fotoGaleria {
+    width: 35%;
+    height: auto;
+}
+
+/*Otro box modeling (EN LA SECCION FOTOS*/
+.fotoBoxMod {
+    margin: 40px;
+    padding: auto;
+    display: inline-block;
+    margin-top: 100px;
+
+}

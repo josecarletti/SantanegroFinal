@@ -1,0 +1,111 @@
+@import '../base/variables';
+
+/*Footer*/
+
+footer {
+    background-color: $color-black;
+    background-size: contain;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+    @media (max-width: 960px) {
+        justify-content: center;
+        background-image: none;
+        background-color: $color-black;
+    }
+}
+
+.footerContainer {
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    width: 100%;
+    height: 70px;
+
+    @media (max-width: 960px) {
+        height: 56px;
+        width: 100%;
+    }
+}
+
+.flexFooter {
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    @media (max-width: 960px) {
+        width: 100%;
+        height: 56px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 15px;
+    }
+}
+
+.flexObjet {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+
+    @media (max-width: 960px) {
+        justify-content: space-around;
+        align-items: center;
+        margin-top: 25px;
+        margin: 0.5em;
+        width: 100%;
+        padding: auto;
+    }
+}
+
+.iconContainer {
+    display: flex;
+    margin-left: 30px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.colorItem {
+    justify-content: space-around;
+    font-size: x-large;
+    color: $color-white;
+
+    &:hover {
+        transform: scale(2);
+        transition: all 1s;
+    }
+
+    @media (max-width: 960px) {
+        justify-content: flex-start;
+        font-size: small;
+        color: $color-white;
+    }
+}
+
+
+.flexText {
+    display: flex;
+    justify-content: flex-end;
+    font-family: $Gfont;
+    font-size: 14px;
+    color: $color-white;
+    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-right: 36px;
+    flex-wrap: nowrap;
+
+    @media (max-width: 960px) {
+        display: flex;
+        justify-content: flex-end;
+        font-family: $Gfont;
+        font-size: small;
+        color: $color-white;
+        margin-left: 2px;
+        margin-bottom: 10px;
+        flex-wrap: wrap;
+    }
+}

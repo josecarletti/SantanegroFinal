@@ -1,0 +1,479 @@
+@charset "UTF-8";
+/*Reseteo*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  text-decoration: none;
+  border: none;
+  outline: none;
+}
+
+h2 {
+  font-family: "Special Elite", cursive;
+  font-size: 30px;
+  color: white;
+  padding-left: 150px;
+}
+@media (max-width: 960px) {
+  h2 {
+    font-size: 20px;
+    color: white;
+    padding-left: 20px;
+  }
+}
+
+h3 {
+  font-family: "Special Elite", cursive;
+  font-size: 20px;
+  color: white;
+}
+
+h5 {
+  font-family: "Special Elite", cursive;
+  font-size: 14px;
+  color: white;
+}
+
+body {
+  width: fit-content;
+  background-size: cover;
+  background-color: #2b2b2b;
+  background-attachment: fixed;
+}
+@media (min-width: 960px) {
+  body {
+    width: fit-content;
+    background-size: cover;
+    background-attachment: fixed;
+  }
+}
+
+/*Gif/Transicion a la Home*/
+.gifPortada {
+  display: flex;
+  justify-content: center;
+  margin-top: 75px;
+}
+@media (max-width: 960px) {
+  .gifPortada {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+.transition {
+  display: flex;
+  justify-content: center;
+  align-content: flex-end;
+  width: 100%;
+}
+
+.gif {
+  width: 100%;
+}
+
+/*Home*/
+main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexMain {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.flexH1 {
+  display: flex;
+  justify-content: center;
+  padding-top: 30px;
+  padding-bottom: 100px;
+  margin-left: 30%;
+  width: 40%;
+  height: 30px;
+}
+@media (max-width: 960px) {
+  .flexH1 {
+    padding-top: 10px;
+    padding-bottom: 30px;
+    margin-left: 30%;
+    width: 40%;
+    height: 58px;
+  }
+}
+
+#santaFont {
+  /*box modeling*/
+  text-align: center;
+  text-transform: uppercase;
+  color: black;
+  font-family: "Special Elite", cursive;
+  font-size: 80px;
+}
+@media (max-width: 960px) {
+  #santaFont {
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+    font-family: "Special Elite", cursive;
+    font-size: 40px;
+  }
+}
+
+.flexNovedades {
+  display: flex;
+  justify-content: center;
+  flex-direction: row;
+}
+@media (max-width: 960px) {
+  .flexNovedades {
+    flex-direction: column;
+  }
+}
+
+.imgNovedades {
+  display: flex;
+  justify-content: center;
+  width: 80%;
+}
+@media (max-width: 960px) {
+  .imgNovedades {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+  }
+}
+
+.flexSection {
+  display: flex;
+  padding-top: 60px;
+  width: 100%;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+@media (max-width: 960px) {
+  .flexSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 30px;
+  }
+}
+
+.divSection {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: row;
+  width: 100%;
+}
+@media (max-width: 960px) {
+  .divSection {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+  }
+}
+
+.flyerContainer {
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  height: 400px;
+  width: 400px;
+  margin-left: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+@media (max-width: 960px) {
+  .flyerContainer {
+    border-radius: 5px;
+    height: 200px;
+    width: 360px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: rgba(255, 255, 255, 0.5);
+  }
+}
+
+.imgBanner {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  object-position: 50% 20%;
+}
+
+.parrafoBio {
+  color: white;
+  background-color: rgba(26, 25, 25, 0.418);
+}
+
+.fotoGaleria {
+  width: 35%;
+  height: auto;
+}
+
+/*Otro box modeling (EN LA SECCION FOTOS*/
+.fotoBoxMod {
+  margin: 40px;
+  padding: auto;
+  display: inline-block;
+  margin-top: 100px;
+}
+
+/*Footer*/
+footer {
+  background-color: black;
+  background-size: contain;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
+@media (max-width: 960px) {
+  footer {
+    justify-content: center;
+    background-image: none;
+    background-color: black;
+  }
+}
+
+.footerContainer {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  width: 100%;
+  height: 70px;
+}
+@media (max-width: 960px) {
+  .footerContainer {
+    height: 56px;
+    width: 100%;
+  }
+}
+
+.flexFooter {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+@media (max-width: 960px) {
+  .flexFooter {
+    width: 100%;
+    height: 56px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 15px;
+  }
+}
+
+.flexObjet {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 100%;
+}
+@media (max-width: 960px) {
+  .flexObjet {
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 25px;
+    margin: 0.5em;
+    width: 100%;
+    padding: auto;
+  }
+}
+
+.iconContainer {
+  display: flex;
+  margin-left: 30px;
+  width: 100%;
+  flex-wrap: nowrap;
+}
+
+.colorItem {
+  justify-content: space-around;
+  font-size: x-large;
+  color: white;
+}
+.colorItem:hover {
+  transform: scale(2);
+  transition: all 1s;
+}
+@media (max-width: 960px) {
+  .colorItem {
+    justify-content: flex-start;
+    font-size: small;
+    color: white;
+  }
+}
+
+.flexText {
+  display: flex;
+  justify-content: flex-end;
+  font-family: "Special Elite", cursive;
+  font-size: 14px;
+  color: white;
+  margin-bottom: 20px;
+  margin-left: 250px;
+  margin-right: 36px;
+  flex-wrap: nowrap;
+}
+@media (max-width: 960px) {
+  .flexText {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Special Elite", cursive;
+    font-size: small;
+    color: white;
+    margin-left: 2px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+}
+
+header {
+  background-color: black;
+  background-size: contain;
+  position: fixed;
+  /*aplico para que acompañe el navbar*/
+  top: 0;
+  left: 0;
+  z-index: 1;
+  /*aplico para que el h1 que dice
+  santanegro no pase por arriba del header*/
+}
+header nav ul li a {
+  font-family: "Special Elite", cursive;
+  text-decoration: none;
+  font-size: 1em;
+  color: white;
+}
+@media (max-width: 960px) {
+  header nav ul li a {
+    font-size: small;
+  }
+}
+
+.headerContainer {
+  display: flex;
+  width: 100%;
+  height: 75px;
+}
+@media (max-width: 960px) {
+  .headerContainer {
+    height: 56px;
+    width: 100%;
+    position: fixed;
+    top: 0%;
+  }
+}
+
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  width: 100%;
+}
+@media (max-width: 960px) {
+  .navbar {
+    display: flex;
+    width: 100%;
+  }
+}
+
+.logoFlex {
+  margin-left: 20px;
+  margin-top: 5px;
+  display: flex;
+  justify-content: flex-start;
+}
+@media (max-width: 960px) {
+  .logoFlex {
+    margin-top: 10px;
+    margin-left: 5px;
+    display: flex;
+    justify-content: start;
+  }
+}
+
+.logoNav {
+  padding: 10px;
+  width: 130px;
+  transition: all 1s;
+}
+.logoNav:hover {
+  transform: scale(1.2);
+}
+@media (max-width: 960px) {
+  .logoNav {
+    padding: 5px;
+    width: 80px;
+    transition: all 1s;
+  }
+}
+
+.flexMenu {
+  display: flex;
+  margin-right: 30px;
+  width: 100%;
+  justify-content: flex-end;
+  align-items: center;
+  height: -webkit-fill-available;
+  align-content: space-between;
+  flex-wrap: nowrap;
+}
+@media (max-width: 960px) {
+  .flexMenu {
+    display: flex;
+    justify-content: center;
+    margin-right: 5px;
+    width: 100%;
+  }
+}
+
+.flexSeccion {
+  margin-left: 3px;
+  margin-right: 3px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 30px;
+}
+@media (max-width: 960px) {
+  .flexSeccion {
+    margin-left: 3px;
+    margin-right: 3px;
+    padding: 4px;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #2f2d2d;
+    border-radius: 20px;
+  }
+}
+
+.menu {
+  list-style: none;
+  text-transform: uppercase;
+}
+.menu:hover {
+  /*pseudo clase hover*/
+  font-size: 1.5em;
+  transition: all 1s;
+}
+.menu:visited {
+  color: #eaffe1;
+}
+
+/*# sourceMappingURL=style.css.map */
